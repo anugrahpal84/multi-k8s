@@ -25,5 +25,5 @@ spec:
             - name: postgres-storage
               mountPath: /var/lib/postgresql/data
               subPath: postgres
-          env:
-            POSTGRES_HOST_AUTH_METHOD: 'trust'
+          environment:
+            POSTGRES_HOST_AUTH_METHOD: trust
